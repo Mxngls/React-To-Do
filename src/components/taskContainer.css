@@ -1,0 +1,33 @@
+.task-container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 400px;
+	background-color: lightgray;
+	border-radius: 5px;
+	margin-left:  50%;
+    transform: translateX(-50%);
+}
+
+.input-check {
+	margin: 10px 3px 10px 10px;
+}
+
+.input-check-label {
+	margin: 10px 0px 10px 0px;
+}
+
+.input-form {
+}
+
+.input-field {
+	width: 375px;
+	border-radius: 5px;
+	background-color: whitesmoke;
+	border: 1px solid whitesmoke;
+	margin: 10px 2000px 10px 10px;
+	font-size: 20px;
+}
+
+.input-field:focus {
+	outline:none;
+}

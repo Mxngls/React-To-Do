@@ -1,0 +1,51 @@
+.task {
+	transition: 0.4s;
+	margin: 10px;
+	width: 380px;
+	height: 115px;
+	border-radius: 5px;
+	background-color: whitesmoke;
+}
+
+.task-done {
+	height: 30px;
+	transition: 0.4s;
+	text-decoration: line-through;
+	color: darkseagreen;
+	font-size: 20px;
+	padding: 10px;
+	margin: 0 22px 22px 0px;
+	border: 1px solid whitesmoke;
+	border-radius: 5px;
+	background-color: whitesmoke;
+}
+
+.task-active {
+	height: 30px;
+	transition: 0.4s;
+	font-size: 20px;
+	padding: 10px;
+	margin: 0 22px 24px 0px;
+	border: 1px solid whitesmoke;
+	border-radius: 5px;
+	background-color: whitesmoke;
+}
+
+.delete-task-button {
+	padding: 10px;
+	width: 358px;
+	margin: 25px 18px 18px 0px;
+	font-size: 14px;
+	padding: 10px;
+	border: 1px solid whitesmoke;
+	border-radius: 5px;
+	background-color: whitesmoke;
+}
+
+.delete-task-button:hover {
+	transition-timing-function: ease-in;
+	transition: background-color 0.4s, border 0.4s, color 0s;
+	border: 1px solid indianred;
+	background-color: indianred;
+	color: white;
+}
